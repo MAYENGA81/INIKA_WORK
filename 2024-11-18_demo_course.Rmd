@@ -9,13 +9,68 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+# course part 1 - Laboratory
 
 # we selected 20 isolates
 
 - 6 are *Klebsiella spp* isolates
 - 6 are *E. coli* isolates
 - 8 are **Salmonella spp** isolates
+
+ <!-- 
+ TODO: I am a comments
+ damned lab work it failed too much today
+-->
+
+
+## Installation  of packages
+
+
+```{r}
+#install.packages("here")
+#install.packages("Diagrammer")
+```
+ ctrl + alt + I (make a cell - shortcut on the keyboard)
+
+```{r}
+angry_or_not <- "not"
+```
+
+
+
+ give content of the object (container)
+```{r}
+ angry_or_not
+```
+
+
+Emmanuel, are you angry or not? `r print(angry_or_not)`
+
+# working with my data
+
+
+```{r}
+ here::here()
+```
+
+
+```{r}
+path_data <-here::here("data", "2024-09-25_INIKA_SAMPLING_ANALYSIS_HUMAN.csv")
+
+path_data
+```
+
+
+```{r}
+ human_data <-
+  readr::read_csv2(path_data)
+```
+
+
+
+
+
+
 
 ## R Markdown
 
