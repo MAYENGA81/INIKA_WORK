@@ -67,7 +67,15 @@ path_data
 ```
 
 
+# Day 3
 
+## Getting help - and what functions do
+
+
+
+```{r}
+
+```
 
 
 
