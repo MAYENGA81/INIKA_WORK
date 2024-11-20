@@ -1,0 +1,57 @@
+---
+title: "Laboratory Work"
+author: "Emmanuel L Mayenga"
+date: "2024-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# course part 1 - Laboratory
+
+# we selected 20 isolates
+
+- 6 are *Klebsiella spp* isolates
+- 6 are *E. coli* isolates
+- 8 are **Salmonella spp** isolates
+
+## Results of isolates species identification 
+
+<-!--
+This is to view a file/image in the document when knited
+![integrated pdf](files/VITCK RESULTS19_11_2024.pdf)
+-->
+
+<!-- I have made a link to a file -->
+[linked pdf](files/VITECK RESULTS19_11_2024.pdf)
+
+ - some isolates could not be identified
+ - the reason could be 
+    - no colony
+    - several strains (>2) or failed to be distinguished
+
+
+Picture of results
+
+![](files/VITECK RESULTS19_11_2024.pdf)
+
+
+# Course Part 2 - Laboratory (Tuesday)
+
+# DNA Exyraction
+
+Nine isolates were confirmed as *E. coli* isolate, *Salmonella* isolate, 
+
+Emmanuel L Mayenga 
+A2: E. coli 
+C1: Salmonella enterica
+
+- - A2 - E. coli E
+- - A4 - E.coli M
+- - B3 - E.coli 
+- - C1 - Salmonella E
+- - 
+
+
