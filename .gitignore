@@ -1,5 +1,6 @@
 # In INIKA we do not want 
 data/
+Files/
 **/.*xlsx
 **/.*csv
 **/.*sqlite

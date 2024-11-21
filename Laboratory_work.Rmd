@@ -2,7 +2,10 @@
 title: "Laboratory Work"
 author: "Emmanuel L Mayenga"
 date: "2024-11-20"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -19,13 +22,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Results of isolates species identification 
 
-<-!--
+<!--
 This is to view a file/image in the document when knited
-![integrated pdf](files/VITCK RESULTS19_11_2024.pdf)
+![integrated pdf](Files/VITECK_RESULTS19_11_2024.pdf)
 -->
 
 <!-- I have made a link to a file -->
-[linked pdf](files/VITECK RESULTS19_11_2024.pdf)
+[linked pdf](Files/VITECK_RESULTS19_11_2024.pdf)
+
+![Results 1](Files/VITECK_RESULTS19_11_2024_1.png)
+</br>
+![Results 2](Files/VITECK_RESULTS19_11_2024_2.png)
+
+
 
  - some isolates could not be identified
  - the reason could be 
@@ -35,7 +44,7 @@ This is to view a file/image in the document when knited
 
 Picture of results
 
-![](files/VITECK RESULTS19_11_2024.pdf)
+![](files/VITECK_RESULTS19_11_2024.pdf)
 
 
 # Course Part 2 - Laboratory (Tuesday)
