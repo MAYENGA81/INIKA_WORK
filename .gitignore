@@ -13,6 +13,15 @@ results/
 .Rhistory
 .Rapp.history
 
+# added to ignore files in root directory
+*.html
+*.pdf
+*.docx
+*.csv
+*.xlsx
+*.sqlite
+
+
 
 
 
